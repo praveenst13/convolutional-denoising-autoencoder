@@ -5,20 +5,18 @@
 To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
-
-## Convolution Autoencoder Network Model
-
-Include the neural network model diagram.
+Autoencoder is an unsupervised artificial neural network that is trained to copy its input to output.MNIST is a dataset of black and white handwritten images of size 28x28.Denoising is the process of removing noise. This can be an image, audio, or document.These noisy digits will serve as our input data to our encoder.
 
 ## DESIGN STEPS
 
 ### STEP 1:
+Download and split the dataset into training and testing datasets
 
 ### STEP 2:
+Rescale the data as that the training is made easy
 
 ### STEP 3:
-
-Write your own steps
+Create the model for the program , in this experiment we create to networks , one for encoding and one for decoding.
 
 ## PROGRAM
 ```py
@@ -111,4 +109,4 @@ print("212222240077")
 
 
 ## RESULT
-
+Thus we have successfully developed a convolutional autoencoder for image denoising application.
